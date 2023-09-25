@@ -11,7 +11,7 @@ const sum = function(array) {
 };
 
 const multiply = function(array) {
-	return array.reduce((multiplied, item) => multiplied *= item, 1);
+	return array.reduce((multiplied, item) => multiplied * item, 1);
 };
 
 const power = function(a, b) {
